@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --toastify-color-success: rgb(238, 187, 35);
+  --toastify-color-error: rgb(233, 52, 52);
+
+  --medium-yellow: rgb(238, 187, 35);
+  --red: rgb(233, 52, 52);
+
+  --main-font: Arial, Helvetica, sans-serif;
+}
