@@ -6,7 +6,7 @@ export default function Home() {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <main className="relative z-20 font-semibold bg-mustard-0 text-gray-100 h-screen w-full font-helvetica flex justify-center items-center flex-col gap-3">
+    <main className="relative z-20 flex h-screen w-full flex-col items-center justify-center gap-3 bg-mustard-0 font-helvetica font-semibold text-gray-100">
       <h1 className="text-3xl">Hello &</h1>
       <Link
         to="/about"
@@ -16,7 +16,7 @@ export default function Home() {
         <img
           src={profile}
           alt="profile-pic"
-          className="h-48 w-48 rounded-full hover:scale-105 transition-all"
+          className="h-48 w-48 rounded-full transition-all hover:scale-105"
         />
       </Link>
       <div className="flex flex-col items-center">

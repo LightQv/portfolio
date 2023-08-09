@@ -3,7 +3,7 @@ export default function LinkedInSvg() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
-      className="w-6 h-6 lg:h-7 lg:w-7"
+      className="h-6 w-6 lg:h-7 lg:w-7"
       viewBox="0 0 24 24"
       style={{ fill: "rgba(0, 0, 0, 1)", transform: "msFilter" }}
     >
