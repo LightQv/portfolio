@@ -13,7 +13,7 @@ export default function Projects() {
   const [format, setFormat] = useState("mobile");
 
   return (
-    <main className="relative flex h-screen w-screen flex-col items-center justify-center bg-mustard-0 pt-16 font-roboto text-slate-50 scrollbar-hide lg:justify-start lg:px-20 lg:pt-20">
+    <main className="relative flex h-screen w-screen flex-col items-center justify-center bg-mustard-0 pt-16 font-roboto text-slate-50 scrollbar-hide lg:justify-start lg:overflow-hidden lg:px-20 lg:pt-20">
       {/* Mobile Display */}
       <div className="h-full w-full overflow-x-scroll px-8 scrollbar-hide lg:hidden">
         <ModalDetails />
