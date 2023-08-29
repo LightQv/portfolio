@@ -1,47 +1,24 @@
 import PropTypes from "prop-types";
 
-export default function ProjectCard({
-  project,
-  isActive,
-  setIsActive,
-  setActiveProject,
-}) {
-  const handleActiveProject = () => {
-    if (isActive !== project.id) {
-      setIsActive(project.id);
-      setActiveProject(project);
-    } else {
-      setIsActive(0);
-      setActiveProject(null);
-    }
-  };
-
+export default function ProjectCard({ project, format }) {
   return (
     <li
-      style={
-        isActive === project.id
-          ? {
-              transform: "translateY(-2rem)",
-              transition: "0.4s ease-in-out",
-            }
-          : { transition: "0.4s ease-in-out" }
-      }
-      className="my-auto flex h-fit w-80 items-center overflow-hidden rounded-3xl shadow-3xl transition-all hover:z-10 hover:-translate-y-8 lg:border-[1px] lg:border-mustard-0"
+      className={`my-auto flex h-fit items-center overflow-hidden ${
+        format === "desktop" ? "w-[60rem] rounded-sm" : "w-80 rounded-3xl"
+      } border-[1px] border-mustard-0 shadow-3xl`}
     >
-      <button
-        type="button"
-        onClick={() => handleActiveProject()}
-        className="h-full w-full"
-      >
-        <img src={project.img} alt={project.name} className="object-fit" />
-      </button>
+      <img
+        src={
+          format === "desktop" ? project.img[0].desktop : project.img[0].mobile
+        }
+        alt={project.name}
+        className="object-fit"
+      />
     </li>
   );
 }
 
 ProjectCard.propTypes = {
   project: PropTypes.shape().isRequired,
-  isActive: PropTypes.number.isRequired,
-  setIsActive: PropTypes.func.isRequired,
-  setActiveProject: PropTypes.func.isRequired,
+  format: PropTypes.string.isRequired,
 };

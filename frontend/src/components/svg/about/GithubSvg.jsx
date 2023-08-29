@@ -5,7 +5,6 @@ export default function GithubSvg() {
       fill="currentColor"
       className="h-6 w-6 lg:h-7 lg:w-7"
       viewBox="0 0 24 24"
-      style={{ fill: "rgba(0, 0, 0, 1)", transform: "msFilter" }}
     >
       <path
         fillRule="evenodd"
