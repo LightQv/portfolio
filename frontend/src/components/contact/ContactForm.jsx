@@ -65,14 +65,14 @@ export default function ContactForm() {
         />
         <div className="text-center font-bold lg:text-start">
           <h1 className="text-xl opacity-60 lg:text-7xl lg:opacity-100">
-            {isSend ? "Thank you!" : "Interested?"}
+            {isSend ? "Thank you!" : "Interested,"}
           </h1>
           <h3
             className={`-mt-1 text-2xl lg:-mt-0 lg:text-7xl lg:opacity-60 ${
               isSend ? "lg:w-3/4" : ""
             }`}
           >
-            {isSend ? "I'll be back to you ASAP." : "Send me an email."}
+            {isSend ? "I'll be back to you ASAP." : "send me an email."}
           </h3>
         </div>
       </section>
