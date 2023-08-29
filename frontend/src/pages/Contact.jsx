@@ -8,7 +8,7 @@ export default function Contact() {
         <ContactForm />
       </div>
       <h1 className="-left-16 bottom-0 z-10 hidden text-[10rem] font-bold text-yellow-950 lg:absolute lg:block">
-        Collab.
+        Collab?
       </h1>
       <ContactBar />
     </main>
