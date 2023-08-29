@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        helvetica: ["var(--main-font)"],
+        roboto: ["var(--roboto)"],
       },
       colors: {
         mustard: ["var(--medium-yellow)"],
