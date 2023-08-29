@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState, useRef } from "react";
 import { useFormik } from "formik";
 import emailjs from "@emailjs/browser";
@@ -7,9 +8,8 @@ import ThumbSvg from "../svg/contact/ThumbSvg";
 import mailSchema from "../../services/validators";
 import { notifyPromise } from "../toasts/CustomToasts";
 
-export default function ContactForm() {
+export default function ContactForm({ isSend, setIsSend }) {
   const [isHover, setIsHover] = useState(false);
-  const [isSend, setIsSend] = useState(false);
   const form = useRef();
 
   // --- Formik Logic --- //
@@ -65,14 +65,10 @@ export default function ContactForm() {
         />
         <div className="text-center font-bold lg:text-start">
           <h1 className="text-xl opacity-60 lg:text-7xl lg:opacity-100">
-            {isSend ? "Thank you!" : "Interested,"}
+            If interested,
           </h1>
-          <h3
-            className={`-mt-1 text-2xl lg:-mt-0 lg:text-7xl lg:opacity-60 ${
-              isSend ? "lg:w-3/4" : ""
-            }`}
-          >
-            {isSend ? "I'll be back to you ASAP." : "send me an email."}
+          <h3 className="-mt-1 text-2xl lg:-mt-0 lg:text-7xl lg:opacity-60">
+            send me an email.
           </h3>
         </div>
       </section>
@@ -179,3 +175,8 @@ export default function ContactForm() {
     </div>
   );
 }
+
+ContactForm.propTypes = {
+  isSend: PropTypes.bool.isRequired,
+  setIsSend: PropTypes.func.isRequired,
+};
