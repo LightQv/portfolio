@@ -102,7 +102,7 @@ const projects = [
     language: ["React.js", "Tailwind CSS", "Express.js", "Prisma", "Firebase"],
     deployed: null,
     code_source: "https://github.com/LightQv/instagif",
-    demo_link: null,
+    demo_link: "https://insta-gif.vercel.app/",
   },
 ];
 
