@@ -10,6 +10,7 @@ export default function ModalDetails() {
     <>
       <button
         onClick={() => setShowModal(true)}
+        aria-label="open modal"
         type="button"
         className="fixed left-[calc(50vw-1.25rem)] top-20 mx-auto flex h-10 w-10 animate-bounce items-center justify-center rounded-full bg-mustard-0 font-bold text-yellow-950 shadow-lg"
       >

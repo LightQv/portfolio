@@ -8,6 +8,7 @@ export default function DisplaySwitch({ format, setFormat }) {
       <p className="text-base font-medium">Display as</p>
       <button
         type="button"
+        aria-label="switch project format"
         className={`flex h-full w-1/2 self-end rounded-md border-2 border-slate-100 bg-slate-100 transition-all ${
           format === "mobile" ? "justify-start" : "justify-end"
         }`}
