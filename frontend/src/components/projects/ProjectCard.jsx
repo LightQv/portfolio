@@ -4,7 +4,7 @@ export default function ProjectCard({ project, format }) {
   return (
     <li
       className={`my-auto flex h-fit items-center overflow-hidden ${
-        format === "desktop" ? "w-[60rem] rounded-sm" : "w-80 rounded-3xl"
+        format === "desktop" ? "w-[60rem] rounded-sm" : "w-80 rounded-2xl"
       } border-[1px] border-mustard-0 shadow-3xl`}
     >
       <img
