@@ -14,6 +14,7 @@ export default function ContactCard() {
       <div className="flex gap-2 text-yellow-950">
         <a
           href={links[0]?.github}
+          aria-label="github link"
           target="_blank"
           rel="noreferrer"
           className="transition-all hover:scale-125 hover:text-slate-100"
@@ -22,6 +23,7 @@ export default function ContactCard() {
         </a>
         <a
           href={links[0]?.linkedin}
+          aria-label="linkedin link"
           target="_blank"
           rel="noreferrer"
           className="transition-all hover:scale-125 hover:text-slate-100"

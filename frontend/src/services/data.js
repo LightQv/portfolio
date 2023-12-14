@@ -2,14 +2,14 @@ import wildfest from "../assets/image/projects/wildfest.png";
 import wildfestDesktop from "../assets/image/projects/wildfest_desktop.png";
 import pokedex from "../assets/image/projects/pokedex.png";
 import pokedexDesktop from "../assets/image/projects/pokedex_desktop.png";
-import keskonregarde from "../assets/image/projects/keskonregarde.png";
-import keskonregardeDesktop from "../assets/image/projects/keskonregarde_desktop.png";
 import discovery from "../assets/image/projects/discovery.png";
 import discoveryDesktop from "../assets/image/projects/discovery_desktop.png";
 import serenity from "../assets/image/projects/serenity.png";
 import serenityDesktop from "../assets/image/projects/serenity_desktop.png";
 import instagif from "../assets/image/projects/instagif.png";
 import instagifDesktop from "../assets/image/projects/instagif_desktop.png";
+import wdiwt from "../assets/image/projects/wdiwt.png";
+import wdiwtDesktop from "../assets/image/projects/wdiwt_desktop.png";
 
 export const skills = [
   {
@@ -21,6 +21,7 @@ export const skills = [
       "CSS",
       "Tailwind CSS",
       "JavaScript",
+      "TypeScript",
       "HTML",
       "mySQL",
       "Prisma",
@@ -63,17 +64,6 @@ const projects = [
   },
   {
     id: 3,
-    name: "Keskonregarde ?",
-    img: [{ mobile: keskonregarde, desktop: keskonregardeDesktop }],
-    description:
-      "is a search website that aim to help the users to find a movie to watch.",
-    language: ["React.js", "CSS", "Node.js"],
-    deployed: "Netlify",
-    code_source: "https://github.com/LightQv/keskonregarde",
-    demo_link: "https://lightqv-keskonregarde.netlify.app/",
-  },
-  {
-    id: 4,
     name: "Discovery",
     img: [{ mobile: discovery, desktop: discoveryDesktop }],
     description:
@@ -84,7 +74,7 @@ const projects = [
     demo_link: null,
   },
   {
-    id: 5,
+    id: 4,
     name: "Serenity",
     img: [{ mobile: serenity, desktop: serenityDesktop }],
     description:
@@ -95,14 +85,31 @@ const projects = [
     demo_link: null,
   },
   {
-    id: 6,
+    id: 5,
     name: "Instagif",
     img: [{ mobile: instagif, desktop: instagifDesktop }],
     description: "is a GIPHY's based Social App.",
     language: ["React.js", "Tailwind CSS", "Express.js", "Prisma", "Firebase"],
-    deployed: null,
+    deployed: "Vercel",
     code_source: "https://github.com/LightQv/instagif",
     demo_link: "https://insta-gif.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "WDIWT?",
+    img: [{ mobile: wdiwt, desktop: wdiwtDesktop }],
+    description:
+      "What do I watch tonight ? Here's an app helping you answering that.",
+    language: [
+      "React.js",
+      "Tailwind CSS",
+      "Express.js",
+      "TypeScript",
+      "Prisma",
+    ],
+    deployed: "Vercel",
+    code_source: "https://github.com/LightQv/wdiwt",
+    demo_link: "https://wdiwt.vercel.app/",
   },
 ];
 
