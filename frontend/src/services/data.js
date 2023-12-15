@@ -71,7 +71,7 @@ const projects = [
     language: ["React.js", "Tailwind CSS", "Express.js"],
     deployed: null,
     code_source: "https://github.com/LightQv/discovery",
-    demo_link: null,
+    demo_link: "https://discovery-lightqv.vercel.app/",
   },
   {
     id: 4,
