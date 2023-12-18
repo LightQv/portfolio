@@ -60,7 +60,7 @@ const projects = [
     language: ["React.js", "CSS", "Node.js"],
     deployed: "gh-pages",
     code_source: "https://github.com/LightQv/pokedex",
-    demo_link: "https://lightqv.github.io/pokedex/",
+    demo_link: "https://pokedex.vivianquerenet.com",
   },
   {
     id: 3,
@@ -71,7 +71,7 @@ const projects = [
     language: ["React.js", "Tailwind CSS", "Express.js"],
     deployed: null,
     code_source: "https://github.com/LightQv/discovery",
-    demo_link: "https://discovery-lightqv.vercel.app/",
+    demo_link: "https://discovery.vivianquerenet.com",
   },
   {
     id: 4,
@@ -92,14 +92,14 @@ const projects = [
     language: ["React.js", "Tailwind CSS", "Express.js", "Prisma", "Firebase"],
     deployed: "Vercel",
     code_source: "https://github.com/LightQv/instagif",
-    demo_link: "https://insta-gif.vercel.app/",
+    demo_link: "https://instagif.vivianquerenet.com",
   },
   {
     id: 6,
-    name: "WDIWT?",
+    name: "DIWIT?",
     img: [{ mobile: wdiwt, desktop: wdiwtDesktop }],
     description:
-      "What do I watch tonight ? Here's an app helping you answering that.",
+      "Do I watch it tonight ? Here's an app helping you answering that.",
     language: [
       "React.js",
       "Tailwind CSS",
@@ -109,7 +109,7 @@ const projects = [
     ],
     deployed: "Vercel",
     code_source: "https://github.com/LightQv/wdiwt",
-    demo_link: "https://wdiwt.vercel.app/",
+    demo_link: "https://diwit.vivianquerenet.com",
   },
 ];
 
