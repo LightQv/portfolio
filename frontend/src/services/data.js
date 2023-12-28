@@ -96,10 +96,10 @@ const projects = [
   },
   {
     id: 6,
-    name: "DIWIT?",
+    name: "SCENARIO",
     img: [{ mobile: wdiwt, desktop: wdiwtDesktop }],
     description:
-      "Do I watch it tonight ? Here's an app helping you answering that.",
+      "What do I watch tonight ? Here's an app helping you answering that.",
     language: [
       "React.js",
       "Tailwind CSS",
@@ -108,8 +108,8 @@ const projects = [
       "Prisma",
     ],
     deployed: "Vercel",
-    code_source: "https://github.com/LightQv/wdiwt",
-    demo_link: "https://diwit.vivianquerenet.com",
+    code_source: "https://github.com/LightQv/scenario",
+    demo_link: "https://scenario.vivianquerenet.com",
   },
 ];
 
