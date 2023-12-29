@@ -21,7 +21,6 @@ export const skills = [
       "CSS",
       "Tailwind CSS",
       "JavaScript",
-      "TypeScript",
       "HTML",
       "mySQL",
       "Prisma",
@@ -100,13 +99,7 @@ const projects = [
     img: [{ mobile: wdiwt, desktop: wdiwtDesktop }],
     description:
       "What do I watch tonight ? Here's an app helping you answering that.",
-    language: [
-      "React.js",
-      "Tailwind CSS",
-      "Express.js",
-      "TypeScript",
-      "Prisma",
-    ],
+    language: ["React.js", "Tailwind CSS", "Express.js", "Prisma"],
     deployed: "Vercel",
     code_source: "https://github.com/LightQv/scenario",
     demo_link: "https://scenario.vivianquerenet.com",
