@@ -8,8 +8,8 @@ import serenity from "../assets/image/projects/serenity.png";
 import serenityDesktop from "../assets/image/projects/serenity_desktop.png";
 import instagif from "../assets/image/projects/instagif.png";
 import instagifDesktop from "../assets/image/projects/instagif_desktop.png";
-import wdiwt from "../assets/image/projects/wdiwt.png";
-import wdiwtDesktop from "../assets/image/projects/wdiwt_desktop.png";
+import scenario from "../assets/image/projects/scenario.png";
+import scenarioDesktop from "../assets/image/projects/scenario_desktop.png";
 
 export const skills = [
   {
@@ -96,7 +96,7 @@ const projects = [
   {
     id: 6,
     name: "SCENARIO",
-    img: [{ mobile: wdiwt, desktop: wdiwtDesktop }],
+    img: [{ mobile: scenario, desktop: scenarioDesktop }],
     description:
       "What do I watch tonight ? Here's an app helping you answering that.",
     language: ["React.js", "Tailwind CSS", "Express.js", "Prisma"],
