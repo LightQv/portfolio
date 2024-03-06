@@ -21,7 +21,6 @@ export const skills = [
       "CSS",
       "Tailwind CSS",
       "JavaScript",
-      "TypeScript",
       "HTML",
       "mySQL",
       "Prisma",
