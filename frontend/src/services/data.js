@@ -21,6 +21,7 @@ export const skills = [
       "CSS",
       "Tailwind CSS",
       "JavaScript",
+      "TypeScript",
       "HTML",
       "mySQL",
       "Prisma",
@@ -48,8 +49,7 @@ const projects = [
     language: ["HTML", "CSS", "JavaScript"],
     deployed: "gh-pages",
     code_source: "https://github.com/LightQv/Wild-Festival",
-    demo_link:
-      "https://wildcodeschool.github.io/2023-02-JS-FT-Lyon-P1-BrainForge/index.html",
+    demo_link: null,
   },
   {
     id: 2,
@@ -70,7 +70,7 @@ const projects = [
     language: ["React.js", "Tailwind CSS", "Express.js"],
     deployed: null,
     code_source: "https://github.com/LightQv/discovery",
-    demo_link: "https://discovery.vivianquerenet.com",
+    demo_link: null,
   },
   {
     id: 4,
@@ -91,7 +91,7 @@ const projects = [
     language: ["React.js", "Tailwind CSS", "Express.js", "Prisma", "Firebase"],
     deployed: "Vercel",
     code_source: "https://github.com/LightQv/instagif",
-    demo_link: "https://instagif.vivianquerenet.com",
+    demo_link: null,
   },
   {
     id: 6,
@@ -101,7 +101,7 @@ const projects = [
       "What do I watch tonight ? Here's an app helping you answering that.",
     language: ["React.js", "Tailwind CSS", "Express.js", "Prisma"],
     deployed: "Vercel",
-    code_source: "https://github.com/LightQv/scenario",
+    code_source: "https://github.com/LightQv/scenario-web-client",
     demo_link: "https://scenario.vivianquerenet.com",
   },
 ];
